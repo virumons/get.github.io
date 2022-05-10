@@ -1,0 +1,236 @@
+body{
+    background-color: #141414;
+    color: white;
+    scroll-behavior: smooth;
+}
+.topnav{
+    padding: 0px;
+    margin: 0%;
+    overflow: hidden;
+}
+.tnav{
+    overflow: hidden;
+
+}
+.tnav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2ddba7;
+
+}
+.tnav li{
+    float: left;
+}
+.tnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+  }
+.tnav li a:hover{
+    background-color: #555;
+    transition: 0.3s;
+}
+
+.tnav img{
+    margin:5px 15px 0px ;
+    margin-bottom: 0%;
+    height: 40px;
+}
+.navi ul{
+    list-style-type: none;
+    margin-top: 0%;
+    padding: 0px;
+    padding-top: 20px;
+    width: 15%;
+    height: 100%;
+    background-color: rgb(16, 16, 16);
+    overflow: auto;
+    position: fixed;
+}
+.navi li a{
+    display: block;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom:1px solid #262626 ;
+}
+
+
+.navi li a:hover {
+    background-color: #555;
+    color: white;
+    transition: 0.2s;
+}
+#al{
+    color: #2ddba7;
+}
+.container{
+    max-width: 800px;
+    margin-top: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #555;
+}
+.container p{
+    font-size: 20px;
+}
+.container ul{
+    list-style-type: none;
+}
+.algorithm{
+    max-width: 750px;
+    margin: 30px 0px 30px 27%;
+}
+.algorithm pre{
+    background-color: #171717;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    overflow: hidden;
+}
+.algorithm{
+    border-bottom: 1px solid #555;
+    padding: 20px ;
+}
+#comment{
+    color: rgba(194, 81, 81, 0.945);
+}
+#code{
+    color: #2ddba7;
+}
+.mytabs{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+
+}
+.mytabs a{
+    text-decoration: none;
+    color: white;
+    background: rgb(10,163,158);
+    background: linear-gradient(151deg, rgba(10,163,158,1) 0%, rgba(86,28,140,1) 100%);
+    float: right;
+    padding: 10px;
+    font-size: 15px;
+}
+.mytabs a:hover{
+    background: rgb(10,63,163);
+background: linear-gradient(151deg, rgba(10,63,163,1) 0%, rgba(140,28,28,1) 100%);
+    transition: 0.9s ease-in-out;
+}
+  .mytabs input[type="radio"]{
+    display: none;
+  }
+  .mytabs label{
+    padding: 20px;
+    background-color: transparent;
+    color: white;
+    margin: 0%;
+  }
+  .tab{
+      position: relative;
+      
+  }
+  .mytabs .tab{
+    width: 100%;
+    order: 1;
+    display: none;
+  }
+  .tab pre{
+      background-color: #171717;
+      color:white;
+  }
+  .mytabs input[type="radio"]:checked +label+ .tab{
+    display: block;
+
+  }
+  .mytabs input[type="radio"]:checked+label{
+      background-color: #171717 ;
+      color: white;
+      border: 1px solid white;
+  }
+/*program head*/
+.programhead{
+    margin:50px 0px 0px 27% ;
+}
+/*output*/
+.outputs{
+    margin: 10px 10px 20px 27%;
+    padding: 20px;
+    background-color: #171717;
+    color: white;
+    max-width: 800px;
+    
+}
+
+.output h3{
+    margin-left: 27%;
+    padding-left: 10px ;
+}
+.times{
+    max-width: 800px;
+    margin: 10px 0px 20px 27%;
+    background-color: #171717;
+    padding: 10px;
+    align-items: center;
+    justify-items: center;
+}
+.note{
+    margin: 20px 0px 10px 0px;
+    background-color: #2ddba7;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.time h3{
+    padding-top: 30px;
+    padding-left: 10px;
+    margin: 50px 0px 0px 27%;
+    border-top: 1px solid #555;
+    max-width: 800px;
+}
+/*visual */
+.visuals{
+    max-width: 800px;
+    margin: 20px 0px 20px 27%;
+    
+}
+
+.visual h3{
+    max-width: 800px;
+    margin: 20px 0px 20px 27%;
+    padding-top: 20px;
+    border-top: 1px solid #555;
+}
+.visuals h4{
+    margin: 20px 0px 0px 0px;
+    background-color: #2ddba7;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.visual{
+    height: 900px;
+}
+.visual a{
+    margin: 0px 0px 0px 27%;
+    text-decoration: none;
+    padding: 10px 30px;
+    background: linear-gradient(264deg, #2AD8C6 0%, #63277B 100%);
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.visual a:hover{
+    background: rgb(10,63,163);
+    background: linear-gradient(151deg, rgba(10,63,163,1) 0%, rgba(140,28,28,1) 100%);
+           
+}
