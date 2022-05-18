@@ -518,14 +518,6 @@ body{
     transition: 0.3s;
 }
 
-@media all and (max-height:1000px)
-{
-    
-    .contribute-rocket1{
-        height: 300px;
-        width: 300px;
-    }
-}
 
   /*@media screen and (max-height: 450px) {
     .overcon h1 {font-size: 20px}
