@@ -520,18 +520,7 @@ body{
 
 @media all and (max-height:1000px)
 {
-    body{
-        padding: 0px;
-        margin: 0%;
-        max-width: 100%;
-        background-color: #0ef7b1;
-    }
-    .navi{
-        max-width: 100%;
-    }
-    .headhome{
-        font-size: 12px;
-    }
+    
     .contribute-rocket1{
         height: 300px;
         width: 300px;
