@@ -82,19 +82,23 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    background-image: url('backplanet.png');
-    background-repeat: no-repeat;
-   background-position: left bottom;   
+    align-items: center; 
+    padding: 2rem;
 }
 .infos{
     display: block;
     width: 600px;
-    text-align: right;
+    text-align: center;
+    border: 1px solid #555;
+    padding: 1rem;
 }
 
 #f-us{
     text-align: center;
+    padding: 1rem;
+}
+.GET-ALGO{
+    padding: 1rem;
 }
 .follow{
     display: flex;
@@ -130,53 +134,90 @@ body{
 /*Teams*/
 .team{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 2rem;
+    background-color: #f9f9f9;
+    color: #171717;
 }
-.team-content h2{
-    margin: 0%;
+.team-content-start{
+    display: block;
+    width: 500px;
     text-align: center;
-
+    border: 1px solid #555;
+    padding: 1rem;
 }
 
-/*team-link*/
+/*team-link-members*/
 .team-link{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom:2rem ;
+    padding:3rem ;
+}
+.team-link h2{
+    text-align: center;
 }
 .team-link-content{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 10px;
 }
 .t1{
     display: inline-block;
-    padding: 1rem;
     border: 3px solid #555;
     border-radius: 8px;
     margin: 10px;
     text-align: center;
+    padding: .5rem;
     
 }
-.team-link img{
-    height: 250px;
-    width: 250px;
-}
-.team-link img:hover{
+.t1:hover{
     transform: scale(1.1);
-    transition: 0.4s ease-in-out;
+    transition: 0.4s;
 }
+.team-link img{
+    height: 150px;
+    width: 150px;
+}
+
 .t1 a img{
     height: 30px;
     width: 30px;
 }
-#viru{
-    height: 250px;
-    width: 250px;
+/*feature*/
+.feature{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    color: #171717;
+}
+.feature h2{
+    display: block;
+    text-align: center;
+
+}
+.feature-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.f1{
+    padding: 1rem;
+    border: 1px solid #555;
+    margin: 15px;
+    text-align: center;
+    color: #171717;
+}
+.f1:hover{
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
 }
